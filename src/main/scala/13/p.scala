@@ -1,8 +1,8 @@
 package bobsrocketes {
   package navigation {
     private[bobsrocketes] class Navigator {
-      val map =  new StarMap
-      private[navigation] def useStarChart :Unit = ()
+      val map = new StarMap
+      private[navigation] def useStarChart: Unit = ()
       class LegOfJourney {
         private[Navigator] val distance = 100
       }
@@ -17,7 +17,7 @@ package bobsrocketes {
     class MissionControl {
       val booster1 = new launch.Booster1
       val booster2 = new bobsrocketes.launch.Booster2
-      val new _root_.launch.Booster3
+      val booster3 = new _root_.launch.Booster3
     }
   }
   package launch {
@@ -53,7 +53,6 @@ class Other {
   // def otherF = (new Super).f
 }
 
-
 class PPP {
   private var hoge = 1
   def incHoge(other: PPP): Unit = other.hoge += 1
@@ -61,9 +60,8 @@ class PPP {
   // def incFuga(other: PPP): Unit = other.fuga + 1
   def incMyFuga: Unit = fuga += 1
 
-  def show: Unit = println("hoge: "+ hoge +", fuga: "+ fuga)
+  def show: Unit = println("hoge: " + hoge + ", fuga: " + fuga)
 }
-
 
 class Rocket {
   import Rocket.fuel
@@ -81,7 +79,6 @@ object Rocket {
   def goHome = println("Go home")
   def pickAStar = println("Pick a star")
 }
-
 
 package hoge {
 }

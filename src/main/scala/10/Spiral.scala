@@ -1,3 +1,5 @@
+import org.stairwaybook.layout.Element
+
 object Spiral {
   import Element.elem
   val space = elem(" ")
