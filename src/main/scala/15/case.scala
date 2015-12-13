@@ -169,12 +169,3 @@ class ExprFormatter {
     }
   def format(e: Expr): Element = format(e, 0)
 }
-
-
-val diag3 = List(
-  List(1, 0, 0),
-  List(0, 1, 0),
-  List(0, 0, 1)
-)
-
-
